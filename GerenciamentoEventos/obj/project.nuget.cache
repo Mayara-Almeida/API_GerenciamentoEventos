@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f037ioQ1mR0=",
+  "dgSpecHash": "LWIqDuUbBlg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\47014999869\\Desktop\\GerenciamentoEventos_API\\GerenciamentoEventos\\GerenciamentoEventos.csproj",
+  "projectFilePath": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\GerenciamentoEventos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\47014999869\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\47014999869\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
