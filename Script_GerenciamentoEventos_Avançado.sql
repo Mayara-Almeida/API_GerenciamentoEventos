@@ -1,0 +1,245 @@
+USE [master]
+GO
+/****** Object:  Database [GerenciamentoEventos]    Script Date: 12/03/2026 21:56:10 ******/
+CREATE DATABASE [GerenciamentoEventos]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'GerenciamentoEventos', FILENAME = N'C:\Users\araya\GerenciamentoEventos.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'GerenciamentoEventos_log', FILENAME = N'C:\Users\araya\GerenciamentoEventos_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
+GO
+ALTER DATABASE [GerenciamentoEventos] SET COMPATIBILITY_LEVEL = 170
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [GerenciamentoEventos].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [GerenciamentoEventos] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET AUTO_CLOSE ON 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET  ENABLE_BROKER 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET RECOVERY SIMPLE 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET  MULTI_USER 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [GerenciamentoEventos] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET OPTIMIZED_LOCKING = OFF 
+GO
+ALTER DATABASE [GerenciamentoEventos] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+ALTER DATABASE [GerenciamentoEventos] SET QUERY_STORE = ON
+GO
+ALTER DATABASE [GerenciamentoEventos] SET QUERY_STORE (OPERATION_MODE = READ_WRITE, CLEANUP_POLICY = (STALE_QUERY_THRESHOLD_DAYS = 30), DATA_FLUSH_INTERVAL_SECONDS = 900, INTERVAL_LENGTH_MINUTES = 60, MAX_STORAGE_SIZE_MB = 1000, QUERY_CAPTURE_MODE = AUTO, SIZE_BASED_CLEANUP_MODE = AUTO, MAX_PLANS_PER_QUERY = 200, WAIT_STATS_CAPTURE_MODE = ON)
+GO
+USE [GerenciamentoEventos]
+GO
+/****** Object:  Table [dbo].[Especialidade]    Script Date: 12/03/2026 21:56:11 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Especialidade](
+	[EspecialidadeID] [int] IDENTITY(1,1) NOT NULL,
+	[NomeEspecialidade] [varchar](100) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[EspecialidadeID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Evento]    Script Date: 12/03/2026 21:56:11 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Evento](
+	[EventoID] [int] IDENTITY(1,1) NOT NULL,
+	[Nome] [nvarchar](150) NOT NULL,
+	[DataEvento] [date] NOT NULL,
+	[LocalEvento] [nvarchar](150) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[EventoID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[TipoUsuario]    Script Date: 12/03/2026 21:56:11 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[TipoUsuario](
+	[TipoUsuarioID] [int] IDENTITY(1,1) NOT NULL,
+	[Tipo] [varchar](50) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[TipoUsuarioID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Usuario]    Script Date: 12/03/2026 21:56:11 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Usuario](
+	[UsuarioID] [int] IDENTITY(1,1) NOT NULL,
+	[Nome] [varchar](60) NOT NULL,
+	[Email] [varchar](150) NOT NULL,
+	[Senha] [varbinary](32) NOT NULL,
+	[EspecialidadeID] [int] NULL,
+	[TipoUsuarioID] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[UsuarioID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[UsuarioEvento]    Script Date: 12/03/2026 21:56:11 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[UsuarioEvento](
+	[UsuarioID] [int] NOT NULL,
+	[EventoID] [int] NOT NULL,
+ CONSTRAINT [PK_UsuarioEvento] PRIMARY KEY CLUSTERED 
+(
+	[UsuarioID] ASC,
+	[EventoID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[Especialidade] ON 
+GO
+INSERT [dbo].[Especialidade] ([EspecialidadeID], [NomeEspecialidade]) VALUES (3, N'Administração')
+GO
+INSERT [dbo].[Especialidade] ([EspecialidadeID], [NomeEspecialidade]) VALUES (1, N'Estudante')
+GO
+INSERT [dbo].[Especialidade] ([EspecialidadeID], [NomeEspecialidade]) VALUES (2, N'Psicologia')
+GO
+SET IDENTITY_INSERT [dbo].[Especialidade] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Evento] ON 
+GO
+INSERT [dbo].[Evento] ([EventoID], [Nome], [DataEvento], [LocalEvento]) VALUES (1, N'Entendendo a mente humana', CAST(N'2026-03-21' AS Date), N'Auditório Áureo, Alameda dos Poetas, 456 – 10º Andar – Centro Histórico, Villa das Artes (RS)')
+GO
+SET IDENTITY_INSERT [dbo].[Evento] OFF
+GO
+SET IDENTITY_INSERT [dbo].[TipoUsuario] ON 
+GO
+INSERT [dbo].[TipoUsuario] ([TipoUsuarioID], [Tipo]) VALUES (3, N'Administrador')
+GO
+INSERT [dbo].[TipoUsuario] ([TipoUsuarioID], [Tipo]) VALUES (2, N'Palestrante')
+GO
+INSERT [dbo].[TipoUsuario] ([TipoUsuarioID], [Tipo]) VALUES (1, N'Participante')
+GO
+SET IDENTITY_INSERT [dbo].[TipoUsuario] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Usuario] ON 
+GO
+INSERT [dbo].[Usuario] ([UsuarioID], [Nome], [Email], [Senha], [EspecialidadeID], [TipoUsuarioID]) VALUES (1, N'Mayara Almeida', N'mayaraAlmeida@eventos.com', 0x7676AAAFB027C825BD9ABAB78B234070E702752F625B752E55E55B48E607E358, 3, 3)
+GO
+INSERT [dbo].[Usuario] ([UsuarioID], [Nome], [Email], [Senha], [EspecialidadeID], [TipoUsuarioID]) VALUES (2, N'Rafaella Hahon', N'rafaHahon@gmail.com', 0xCE418A2C3A88434BC898F728548DC58F05F8C79886AE10939FE10D80AC94DEFF, 1, 1)
+GO
+SET IDENTITY_INSERT [dbo].[Usuario] OFF
+GO
+INSERT [dbo].[UsuarioEvento] ([UsuarioID], [EventoID]) VALUES (2, 1)
+GO
+SET ANSI_PADDING ON
+GO
+/****** Object:  Index [UQ__Especial__D6E5EBAE75A8EC70]    Script Date: 12/03/2026 21:56:11 ******/
+ALTER TABLE [dbo].[Especialidade] ADD UNIQUE NONCLUSTERED 
+(
+	[NomeEspecialidade] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+GO
+/****** Object:  Index [UQ__TipoUsua__8E762CB48F1C9A7A]    Script Date: 12/03/2026 21:56:11 ******/
+ALTER TABLE [dbo].[TipoUsuario] ADD UNIQUE NONCLUSTERED 
+(
+	[Tipo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+SET ANSI_PADDING ON
+GO
+/****** Object:  Index [UQ__Usuario__A9D10534CC2A1864]    Script Date: 12/03/2026 21:56:11 ******/
+ALTER TABLE [dbo].[Usuario] ADD UNIQUE NONCLUSTERED 
+(
+	[Email] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Usuario]  WITH CHECK ADD FOREIGN KEY([EspecialidadeID])
+REFERENCES [dbo].[Especialidade] ([EspecialidadeID])
+GO
+ALTER TABLE [dbo].[Usuario]  WITH CHECK ADD FOREIGN KEY([TipoUsuarioID])
+REFERENCES [dbo].[TipoUsuario] ([TipoUsuarioID])
+GO
+ALTER TABLE [dbo].[UsuarioEvento]  WITH CHECK ADD  CONSTRAINT [FK_EventoID] FOREIGN KEY([EventoID])
+REFERENCES [dbo].[Evento] ([EventoID])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[UsuarioEvento] CHECK CONSTRAINT [FK_EventoID]
+GO
+ALTER TABLE [dbo].[UsuarioEvento]  WITH CHECK ADD  CONSTRAINT [FK_UsuarioID] FOREIGN KEY([UsuarioID])
+REFERENCES [dbo].[Usuario] ([UsuarioID])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[UsuarioEvento] CHECK CONSTRAINT [FK_UsuarioID]
+GO
+USE [master]
+GO
+ALTER DATABASE [GerenciamentoEventos] SET  READ_WRITE 
+GO
