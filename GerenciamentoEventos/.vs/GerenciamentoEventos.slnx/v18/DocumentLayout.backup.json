@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\applications\\services\\especialidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:applications\\services\\especialidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\controllers\\tipousuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:controllers\\tipousuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\repositores\\especialidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:repositores\\especialidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\applications\\services\\tipousuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:applications\\services\\tipousuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\interfaces\\iespecialidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:interfaces\\iespecialidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\dtos\\especialidade\\lerespecialidadedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:dtos\\especialidade\\lerespecialidadedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\repositores\\tipousuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:repositores\\tipousuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\domains\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:domains\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\interfaces\\itipousuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:interfaces\\itipousuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\dtos\\tipousuariodto\\lertipousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:dtos\\tipousuariodto\\lertipousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\dtos\\especialidade\\criarespecialidadedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:dtos\\especialidade\\criarespecialidadedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TipoUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Domains\\TipoUsuario.cs",
-              "RelativeDocumentMoniker": "Domains\\TipoUsuario.cs",
-              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Domains\\TipoUsuario.cs",
-              "RelativeToolTip": "Domains\\TipoUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T11:25:16.079Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAVAAAAAAAAAA==",
+              "Title": "EspecialidadeService.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Applications\\Services\\EspecialidadeService.cs",
+              "RelativeDocumentMoniker": "Applications\\Services\\EspecialidadeService.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Applications\\Services\\EspecialidadeService.cs",
+              "RelativeToolTip": "Applications\\Services\\EspecialidadeService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwDQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:04:05.785Z",
+              "WhenOpened": "2026-03-16T13:23:59.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TipoUsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Controllers\\TipoUsuarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TipoUsuarioController.cs",
-              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Controllers\\TipoUsuarioController.cs*",
-              "RelativeToolTip": "Controllers\\TipoUsuarioController.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCQAAAArAAAAAAAAAA==",
+              "Title": "EspecialidadeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Repositores\\EspecialidadeRepository.cs",
+              "RelativeDocumentMoniker": "Repositores\\EspecialidadeRepository.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Repositores\\EspecialidadeRepository.cs",
+              "RelativeToolTip": "Repositores\\EspecialidadeRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwv0gAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T11:45:06.842Z",
+              "WhenOpened": "2026-03-16T11:58:17.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEspecialidadeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Interfaces\\IEspecialidadeRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IEspecialidadeRepository.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Interfaces\\IEspecialidadeRepository.cs",
+              "RelativeToolTip": "Interfaces\\IEspecialidadeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:54:56.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DomainException.cs",
-              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Exceptions\\DomainException.cs",
-              "RelativeDocumentMoniker": "Exceptions\\DomainException.cs",
-              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Exceptions\\DomainException.cs",
-              "RelativeToolTip": "Exceptions\\DomainException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Title": "LerEspecialidadeDto.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\Especialidade\\LerEspecialidadeDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Especialidade\\LerEspecialidadeDto.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\Especialidade\\LerEspecialidadeDto.cs",
+              "RelativeToolTip": "DTOs\\Especialidade\\LerEspecialidadeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T11:41:36.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TipoUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Applications\\Services\\TipoUsuarioService.cs",
-              "RelativeDocumentMoniker": "Applications\\Services\\TipoUsuarioService.cs",
-              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Applications\\Services\\TipoUsuarioService.cs",
-              "RelativeToolTip": "Applications\\Services\\TipoUsuarioService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwDAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T11:36:11.926Z",
+              "WhenOpened": "2026-03-16T11:50:32.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TipoUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Repositores\\TipoUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Repositores\\TipoUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Repositores\\TipoUsuarioRepository.cs",
-              "RelativeToolTip": "Repositores\\TipoUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Title": "CriarEspecialidadeDto.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\Especialidade\\CriarEspecialidadeDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Especialidade\\CriarEspecialidadeDto.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\Especialidade\\CriarEspecialidadeDto.cs",
+              "RelativeToolTip": "DTOs\\Especialidade\\CriarEspecialidadeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T11:31:56.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ITipoUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Interfaces\\ITipoUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ITipoUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Interfaces\\ITipoUsuarioRepository.cs",
-              "RelativeToolTip": "Interfaces\\ITipoUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T11:29:43.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LerTipoUsuarioDto.cs",
-              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\TipoUsuarioDto\\LerTipoUsuarioDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\TipoUsuarioDto\\LerTipoUsuarioDto.cs",
-              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\TipoUsuarioDto\\LerTipoUsuarioDto.cs",
-              "RelativeToolTip": "DTOs\\TipoUsuarioDto\\LerTipoUsuarioDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T11:27:30.457Z"
+              "WhenOpened": "2026-03-16T11:49:35.633Z",
+              "EditorCaption": ""
             }
           ]
         }
