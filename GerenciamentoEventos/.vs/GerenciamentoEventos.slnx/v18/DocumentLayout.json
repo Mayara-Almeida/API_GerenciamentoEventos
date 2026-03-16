@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\controllers\\tipousuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:controllers\\tipousuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\applications\\services\\tipousuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:applications\\services\\tipousuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\controllers\\tipousuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:controllers\\tipousuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\47014999869\\desktop\\api_gerenciamentoeventos\\gerenciamentoeventos\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TipoUsuario.cs",
               "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Domains\\TipoUsuario.cs",
               "RelativeDocumentMoniker": "Domains\\TipoUsuario.cs",
@@ -51,25 +55,37 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T11:25:16.079Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:04:05.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TipoUsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Controllers\\TipoUsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\TipoUsuarioController.cs",
               "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Controllers\\TipoUsuarioController.cs",
               "RelativeToolTip": "Controllers\\TipoUsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T11:45:06.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DomainException.cs",
               "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Exceptions\\DomainException.cs",
               "RelativeDocumentMoniker": "Exceptions\\DomainException.cs",
@@ -77,25 +93,24 @@
               "RelativeToolTip": "Exceptions\\DomainException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T11:41:36.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T11:41:36.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TipoUsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Applications\\Services\\TipoUsuarioService.cs",
               "RelativeDocumentMoniker": "Applications\\Services\\TipoUsuarioService.cs",
               "ToolTip": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Applications\\Services\\TipoUsuarioService.cs",
               "RelativeToolTip": "Applications\\Services\\TipoUsuarioService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T11:36:11.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TipoUsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Repositores\\TipoUsuarioRepository.cs",
               "RelativeDocumentMoniker": "Repositores\\TipoUsuarioRepository.cs",
@@ -103,12 +118,11 @@
               "RelativeToolTip": "Repositores\\TipoUsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T11:31:56.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T11:31:56.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ITipoUsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\Interfaces\\ITipoUsuarioRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\ITipoUsuarioRepository.cs",
@@ -116,12 +130,11 @@
               "RelativeToolTip": "Interfaces\\ITipoUsuarioRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T11:29:43.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T11:29:43.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LerTipoUsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\47014999869\\Desktop\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\TipoUsuarioDto\\LerTipoUsuarioDto.cs",
               "RelativeDocumentMoniker": "DTOs\\TipoUsuarioDto\\LerTipoUsuarioDto.cs",
@@ -129,8 +142,7 @@
               "RelativeToolTip": "DTOs\\TipoUsuarioDto\\LerTipoUsuarioDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T11:27:30.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T11:27:30.457Z"
             }
           ]
         }

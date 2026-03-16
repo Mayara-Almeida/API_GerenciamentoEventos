@@ -1,5 +1,6 @@
 ﻿using GerenciamentoEventos.Applications.Services;
 using GerenciamentoEventos.DTOs.TipoUsuarioDto;
+using GerenciamentoEventos.Exceptions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -28,7 +29,12 @@ namespace GerenciamentoEventos.Controllers
         {
             try
             {
-
+                LerTipoUsuarioDto tipoUsuario = _service.ObterPorId(id);
+                return Ok(tipoUsuario);
+            }
+            catch (DomainException ex)
+            {
+                return NotFound(ex.Message);
             }
         }
     }
