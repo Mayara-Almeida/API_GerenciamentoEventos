@@ -26,6 +26,13 @@ namespace GerenciamentoEventos.Repositores
             return especialidade;
         }
 
+        public Especialidade ObterPorNome(string nomeEspecialidade)
+        {
+            Especialidade especialidade = _context.Especialidade.FirstOrDefault(e => e.NomeEspecialidade == nomeEspecialidade);
+
+            return especialidade;
+        }
+
         public bool EspecialidadeExiste(string nomeEspecialidade, int? especialidadeIDAtual = null)
         {
             var consultaBanco = _context.Especialidade.AsQueryable();

@@ -20,6 +20,10 @@ builder.Services.AddDbContext<GerenciamentoEventosContext>(options => options.Us
 builder.Services.AddScoped<ITipoUsuarioRepository, TipoUsuarioRepository>();
 builder.Services.AddScoped<TipoUsuarioService>();
 
+// Especialidade 
+builder.Services.AddScoped<IEspecialidadeRepository, EspecialidadeRepository>();
+builder.Services.AddScoped<EspecialidadeService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

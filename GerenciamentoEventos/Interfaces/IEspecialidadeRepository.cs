@@ -9,6 +9,8 @@ namespace GerenciamentoEventos.Interfaces
 
         Especialidade ObterPorId(int id);
 
+        Especialidade ObterPorNome(string nomeEspecialidade);
+
         bool EspecialidadeExiste (string nomeEspecialidade, int? especialidadeIDAtual = null);
 
         void Adicionar(Especialidade especialidade);
