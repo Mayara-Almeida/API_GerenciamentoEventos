@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\api_gerenciamentoeventos\\gerenciamentoeventos\\controllers\\especialidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:controllers\\especialidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\api_gerenciamentoeventos\\gerenciamentoeventos\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\api_gerenciamentoeventos\\gerenciamentoeventos\\applications\\services\\especialidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:applications\\services\\especialidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\api_gerenciamentoeventos\\gerenciamentoeventos\\dtos\\usuariodto\\lerusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:dtos\\usuariodto\\lerusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\api_gerenciamentoeventos\\gerenciamentoeventos\\interfaces\\iespecialidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:interfaces\\iespecialidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\api_gerenciamentoeventos\\gerenciamentoeventos\\dtos\\usuariodto\\criarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:dtos\\usuariodto\\criarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\api_gerenciamentoeventos\\gerenciamentoeventos\\repositores\\especialidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:repositores\\especialidaderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\api_gerenciamentoeventos\\gerenciamentoeventos\\dtos\\especialidade\\lerespecialidadedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:dtos\\especialidade\\lerespecialidadedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\api_gerenciamentoeventos\\gerenciamentoeventos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\api_gerenciamentoeventos\\gerenciamentoeventos\\dtos\\especialidade\\criarespecialidadedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:dtos\\especialidade\\criarespecialidadedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|c:\\users\\araya\\onedrive\\\u00E1rea de trabalho\\api_gerenciamentoeventos\\gerenciamentoeventos\\domains\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D817B3A-C16A-53F3-18B4-4F9F9FE89BA2}|GerenciamentoEventos.csproj|solutionrelative:domains\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:28:40.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EspecialidadeController.cs",
-              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Controllers\\EspecialidadeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EspecialidadeController.cs",
-              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Controllers\\EspecialidadeController.cs",
-              "RelativeToolTip": "Controllers\\EspecialidadeController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAiwCEAAAANAAAAAAAAAA==",
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Interfaces\\IUsuarioRepository.cs*",
+              "RelativeToolTip": "Interfaces\\IUsuarioRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T23:18:00.152Z",
+              "WhenOpened": "2026-03-19T00:42:00.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EspecialidadeService.cs",
-              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Applications\\Services\\EspecialidadeService.cs",
-              "RelativeDocumentMoniker": "Applications\\Services\\EspecialidadeService.cs",
-              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Applications\\Services\\EspecialidadeService.cs",
-              "RelativeToolTip": "Applications\\Services\\EspecialidadeService.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAA7wDIAAAA8AAAAAAAAAA==",
+              "Title": "LerUsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\UsuarioDto\\LerUsuarioDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UsuarioDto\\LerUsuarioDto.cs",
+              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\UsuarioDto\\LerUsuarioDto.cs",
+              "RelativeToolTip": "DTOs\\UsuarioDto\\LerUsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T13:23:59.039Z",
+              "WhenOpened": "2026-03-19T00:40:59.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EspecialidadeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Repositores\\EspecialidadeRepository.cs",
-              "RelativeDocumentMoniker": "Repositores\\EspecialidadeRepository.cs",
-              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Repositores\\EspecialidadeRepository.cs",
-              "RelativeToolTip": "Repositores\\EspecialidadeRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAhAAAAAAAAAA==",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Domains\\Usuario.cs",
+              "RelativeDocumentMoniker": "Domains\\Usuario.cs",
+              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Domains\\Usuario.cs",
+              "RelativeToolTip": "Domains\\Usuario.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:58:17.055Z",
+              "WhenOpened": "2026-03-18T23:38:58.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IEspecialidadeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Interfaces\\IEspecialidadeRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IEspecialidadeRepository.cs",
-              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\Interfaces\\IEspecialidadeRepository.cs",
-              "RelativeToolTip": "Interfaces\\IEspecialidadeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "CriarUsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\UsuarioDto\\CriarUsuarioDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UsuarioDto\\CriarUsuarioDto.cs",
+              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\UsuarioDto\\CriarUsuarioDto.cs",
+              "RelativeToolTip": "DTOs\\UsuarioDto\\CriarUsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:54:56.932Z",
+              "WhenOpened": "2026-03-18T23:38:21.255Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LerEspecialidadeDto.cs",
-              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\Especialidade\\LerEspecialidadeDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Especialidade\\LerEspecialidadeDto.cs",
-              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\Especialidade\\LerEspecialidadeDto.cs",
-              "RelativeToolTip": "DTOs\\Especialidade\\LerEspecialidadeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:50:32.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CriarEspecialidadeDto.cs",
-              "DocumentMoniker": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\Especialidade\\CriarEspecialidadeDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Especialidade\\CriarEspecialidadeDto.cs",
-              "ToolTip": "C:\\Users\\araya\\OneDrive\\\u00C1rea de Trabalho\\API_GerenciamentoEventos\\GerenciamentoEventos\\DTOs\\Especialidade\\CriarEspecialidadeDto.cs",
-              "RelativeToolTip": "DTOs\\Especialidade\\CriarEspecialidadeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:49:35.633Z"
             }
           ]
         }
